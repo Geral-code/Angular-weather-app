@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { WeatherService } from './services/weather.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-weatherapp';
+
+    constructor (private _weatherService: WeatherService){}
+
+
+    
+
+  
+  
+  
+
+
+
+
 }
